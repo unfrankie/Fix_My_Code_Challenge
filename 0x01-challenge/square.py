@@ -3,11 +3,10 @@
 
 
 class square():
-    """ Square Class"""    
+    """ Square Class"""
     width = 0
     height = 0
 
-    
     def __init__(self, *args, **kwargs):
         """INIT"""
         for key, value in kwargs.items():
@@ -24,6 +23,7 @@ class square():
     def __str__(self):
         """STR"""
         return "{}/{}".format(self.width, self.height)
+
 
 if __name__ == "__main__":
     """MAIN"""
